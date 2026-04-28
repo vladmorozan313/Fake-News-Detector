@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exemple — Fake News Detector</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <span class="dot"></span> Fake News Detector
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Acasă</a></li>
+      <li><a href="examples.html">Exemple</a></li>
+      <li><a href="verify.html">Cum verific?</a></li>
+      <li><a href="about.html">Despre</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-content">
+    <div class="hero-badge">Învață din exemple</div>
+    <h1 style="font-size:2.2rem; margin: 0.8rem 0 0.5rem;">Fake vs. Real — Exemple practice</h1>
+    <p style="color:#888; margin-bottom:2.5rem;">
+      Compară titluri reale cu titluri false și observă diferențele de limbaj.
+    </p>
+
+    <!-- FAKE EXAMPLES -->
+    <div class="example-item is-fake">
+      <span class="tag tag-fake">⚠️ FAKE</span>
+      <h3>„ȘOCANT!!! Medicii ascund leacul miraculos pentru cancer — Big Pharma NU vrea să știi!"</h3>
+      <p style="font-size:0.9rem; color:#c92a2a;">
+        <strong>De ce e fals:</strong> Titlul folosește cuvinte senzaționale („ȘOCANT!!!"), promite un
+        secret ascuns și atacă o instituție. Nu există nicio sursă citată.
+      </p>
+    </div>
+
+    <div class="example-item is-fake">
+      <span class="tag tag-fake">⚠️ FAKE</span>
+      <h3>„5G cauzează coronavirus — DISTRIBUIE ÎNAINTE SĂ FIE ȘTERS!!!"</h3>
+      <p style="font-size:0.9rem; color:#c92a2a;">
+        <strong>De ce e fals:</strong> Presiunea de a distribui urgent, lipsa oricărei surse și
+        afirmarea unui „fapt" contrazis de toată comunitatea științifică.
+      </p>
+    </div>
+
+    <div class="example-item is-fake">
+      <span class="tag tag-fake">⚠️ FAKE</span>
+      <h3>„ȘOCANT!!!!Vaccinurile cauzează autism — studiu secret ascuns de guvern!"</h3>
+      <p style="font-size:0.9rem; color:#c92a2a;">
+        <strong>De ce e fals:</strong> Teorie conspiraționistă fără date, fără surse, cu cifre
+        inventate pentru a părea credibil.
+      </p>
+    </div>
+
+    <!-- MISLEADING -->
+    <div class="example-item is-mislead">
+      <span class="tag tag-misleading">🔎 ÎNȘELĂTOR</span>
+      <h3>„Studiu: cafeaua ucide celulele canceroase" (fără a menționa că studiul a fost pe șoareci, în laborator)</h3>
+      <p style="font-size:0.9rem; color:#c17d10;">
+        <strong>De ce e înșelător:</strong> Informația este parțial adevărată dar scoasă din context.
+        Rezultatele în laborator nu se aplică automat la oameni.
+      </p>
+    </div>
+
+    <!-- REAL EXAMPLES -->
+    <div class="example-item is-real">
+      <span class="tag tag-real">✅ REAL</span>
+      <h3>„OMS anunță că vaccinul antigripal 2025-2026 are o eficacitate de 47% conform studiilor de sezon"</h3>
+      <p style="font-size:0.9rem; color:#2b7a3c;">
+        <strong>De ce e credibil:</strong> Sursa este menționată (OMS), există date concrete (47%),
+        limbajul este neutru și există referire la un studiu.
+      </p>
+    </div>
+
+    <div class="example-item is-real">
+      <span class="tag tag-real">✅ REAL</span>
+      <h3>„Parlamentul European a votat miercuri noi reglementări privind inteligența artificială, cu 499 voturi pentru"</h3>
+      <p style="font-size:0.9rem; color:#2b7a3c;">
+        <strong>De ce e credibil:</strong> Conține ziua votului, instituția exactă, numărul de voturi.
+        Verificabil direct pe site-ul Parlamentului European.
+      </p>
+    </div>
+
+    <div class="info-banner" style="margin-top:2.5rem;">
+      <strong>💡 Exersează:</strong> Copiază oricare dintre titlurile de mai sus în
+      <a href="index.html" style="color:#fff; text-decoration:underline;">detectorul nostru</a> și vezi ce scor primesc.
+    </div>
+
+    <div class="keywords-banner">
+      <strong>🔑 Cuvinte cheie suspecte:</strong> URGENT, BREAKING, ACUM, IMEDIAT, ATENȚIE, ȘOCANT, INCREDIBIL, NU VEI CREDE, BOMBĂ, EXCLUSIV, DEZVĂLUIT etc.
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Fake News Detector · Proiect educativ · Nu înlocuiește gândirea critică</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
